@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include student_admission_management *.css
+recursive-include student_admission_management *.csv
+recursive-include student_admission_management *.html
+recursive-include student_admission_management *.ico
+recursive-include student_admission_management *.js
+recursive-include student_admission_management *.json
+recursive-include student_admission_management *.md
+recursive-include student_admission_management *.png
+recursive-include student_admission_management *.py
+recursive-include student_admission_management *.svg
+recursive-include student_admission_management *.txt
+recursive-exclude student_admission_management *.pyc
