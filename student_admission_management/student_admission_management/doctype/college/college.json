@@ -1,0 +1,98 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:college_name",
+ "creation": "2023-03-16 12:31:38.536167",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "college_name",
+  "college_code",
+  "collge_address",
+  "provided_courses",
+  "eligibility_criteria",
+  "science_students",
+  "commerce_students",
+  "arts_students"
+ ],
+ "fields": [
+  {
+   "fieldname": "college_name",
+   "fieldtype": "Data",
+   "label": "College name",
+   "unique": 1
+  },
+  {
+   "fieldname": "college_code",
+   "fieldtype": "Data",
+   "label": "College code"
+  },
+  {
+   "fieldname": "collge_address",
+   "fieldtype": "Data",
+   "label": "Collge address"
+  },
+  {
+   "fieldname": "provided_courses",
+   "fieldtype": "Table MultiSelect",
+   "label": "Provided courses",
+   "options": "Courses table"
+  },
+  {
+   "fieldname": "eligibility_criteria",
+   "fieldtype": "Table",
+   "label": "Eligibility criteria",
+   "options": "Eligibility criteria"
+  },
+  {
+   "fieldname": "science_students",
+   "fieldtype": "Table",
+   "label": "Science students",
+   "options": "Science students"
+  },
+  {
+   "fieldname": "commerce_students",
+   "fieldtype": "Table",
+   "label": "Commerce students",
+   "options": "Commerce students"
+  },
+  {
+   "fieldname": "arts_students",
+   "fieldtype": "Table",
+   "label": "Arts students",
+   "options": "Arts students"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-20 16:28:36.251283",
+ "modified_by": "Administrator",
+ "module": "Student Admission Management",
+ "name": "College",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

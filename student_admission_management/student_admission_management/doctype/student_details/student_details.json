@@ -1,0 +1,60 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-17 11:49:22.423607",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "e_mail",
+  "choice_of_course",
+  "hsc_percentage",
+  "ssc_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full name"
+  },
+  {
+   "fieldname": "e_mail",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "E mail"
+  },
+  {
+   "fieldname": "choice_of_course",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Choice of course"
+  },
+  {
+   "fieldname": "hsc_percentage",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "HSC percentage"
+  },
+  {
+   "fieldname": "ssc_percentage",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "SSC percentage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-17 11:53:33.305353",
+ "modified_by": "Administrator",
+ "module": "Student Admission Management",
+ "name": "Student details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

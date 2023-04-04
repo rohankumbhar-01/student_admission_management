@@ -1,0 +1,93 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2023-03-23 15:54:52.948606",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "college",
+  "total_enrolled_students",
+  "total_rejected_students",
+  "total_available_students",
+  "section_break_l3vvk",
+  "total_science_students",
+  "total_commerce_students",
+  "total_arts_students",
+  "total_students"
+ ],
+ "fields": [
+  {
+   "fieldname": "college",
+   "fieldtype": "Link",
+   "label": "College",
+   "options": "College"
+  },
+  {
+   "fieldname": "total_commerce_students",
+   "fieldtype": "Data",
+   "label": "Total commerce students"
+  },
+  {
+   "fieldname": "total_arts_students",
+   "fieldtype": "Data",
+   "label": "Total arts students"
+  },
+  {
+   "fieldname": "total_students",
+   "fieldtype": "Data",
+   "label": "Total students"
+  },
+  {
+   "fieldname": "total_rejected_students",
+   "fieldtype": "Data",
+   "label": "Total rejected Students"
+  },
+  {
+   "fieldname": "total_science_students",
+   "fieldtype": "Data",
+   "label": "Total science students"
+  },
+  {
+   "fieldname": "total_enrolled_students",
+   "fieldtype": "Data",
+   "label": "Total enrolled students"
+  },
+  {
+   "fieldname": "total_available_students",
+   "fieldtype": "Data",
+   "label": "Total available Students"
+  },
+  {
+   "fieldname": "section_break_l3vvk",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-03-24 16:54:00.316907",
+ "modified_by": "Administrator",
+ "module": "Student Admission Management",
+ "name": "Report Analisis",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
